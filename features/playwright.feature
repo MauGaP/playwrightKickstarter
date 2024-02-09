@@ -1,4 +1,4 @@
-@bar
+@bar @wip
 Feature: Playwright docs
 
   Background: Navigation

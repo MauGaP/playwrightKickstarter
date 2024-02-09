@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1096586600
+              "duration": 1091928299
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 764367399
+              "duration": 711919900
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 880876099
+              "duration": 849005999
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35467900
+              "duration": 36816300
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1168555500
+              "duration": 1195001099
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11232100
+              "duration": 11617399
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 91408500
+              "duration": 97996500
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1169313599
+              "duration": 1143788999
             }
           },
           {
@@ -113,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 17912100
+              "duration": 14448100
             },
             "embeddings": [
               {
@@ -126,6 +126,10 @@
         "tags": [
           {
             "name": "@bar",
+            "line": 1
+          },
+          {
+            "name": "@wip",
             "line": 1
           }
         ],
@@ -140,230 +144,12 @@
       {
         "name": "@bar",
         "line": 1
-      }
-    ],
-    "uri": "features\\playwright.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "playwright-multi-docs;changing-theme-to-required-mode",
-        "keyword": "Scenario Outline",
-        "line": 16,
-        "name": "Changing theme to required mode",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 107133599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "Go to the playwright website",
-            "match": {
-              "location": "src\\steps\\playwright.steps.ts:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 920308100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 9,
-            "name": "Change theme to \"light\" mode",
-            "match": {
-              "location": "src\\steps\\playwright.steps.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 112450300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "Snapshot \"light\"",
-            "match": {
-              "location": "src\\steps\\general.steps.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 106258300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "Change theme to \"dark\" mode",
-            "match": {
-              "location": "src\\steps\\playwright.steps.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 88547699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "Snapshot \"dark\"",
-            "match": {
-              "location": "src\\steps\\general.steps.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 124030999
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 22768799
-            },
-            "embeddings": [
-              {
-                "data": "U3RhdHVzOiBQQVNTRUQuIER1cmF0aW9uOjBz",
-                "mime_type": "text/plain"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "name": "@foo",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
       },
       {
-        "description": "",
-        "id": "playwright-multi-docs;changing-theme-to-required-mode",
-        "keyword": "Scenario Outline",
-        "line": 17,
-        "name": "Changing theme to required mode",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 98289400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "Go to the playwright website",
-            "match": {
-              "location": "src\\steps\\playwright.steps.ts:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 836762000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 9,
-            "name": "Change theme to \"dark\" mode",
-            "match": {
-              "location": "src\\steps\\playwright.steps.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 128886400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "Snapshot \"dark\"",
-            "match": {
-              "location": "src\\steps\\general.steps.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 132705500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "Change theme to \"light\" mode",
-            "match": {
-              "location": "src\\steps\\playwright.steps.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 98663600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "Snapshot \"light\"",
-            "match": {
-              "location": "src\\steps\\general.steps.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 106682899
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 15161699
-            },
-            "embeddings": [
-              {
-                "data": "U3RhdHVzOiBQQVNTRUQuIER1cmF0aW9uOjBz",
-                "mime_type": "text/plain"
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "name": "@foo",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "playwright-multi-docs",
-    "line": 2,
-    "keyword": "Feature",
-    "name": "Playwright multi docs",
-    "tags": [
-      {
-        "name": "@foo",
+        "name": "@wip",
         "line": 1
       }
     ],
-    "uri": "features\\playwright.outline.feature"
+    "uri": "features\\playwright.feature"
   }
 ]

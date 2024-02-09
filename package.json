@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "all": "cucumber-js features/**/*.feature",
+    "tag": "cucumber-js -t",
     "test": "cucumber-js",
-    "only": "npm run cucumber -- --tags @only",
+    "wip": "cucumber-js -t @wip",
     "report": "open reports/report.html",
     "wreport": "start reports/report.html"
   },
